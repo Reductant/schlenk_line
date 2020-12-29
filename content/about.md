@@ -1,6 +1,6 @@
 ---
 date: "2016-05-05T21:48:51-07:00"
-title: About2
+title: This is odd
 ---
 
-La la la!
+Why does this work?
