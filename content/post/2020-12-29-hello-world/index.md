@@ -4,7 +4,7 @@ author: ~
 date: '2020-12-29'
 slug: hello-world
 categories: []
-tags: []
+tags: [test]
 ---
 # Title
 
