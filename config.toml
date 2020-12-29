@@ -1,41 +1,42 @@
-baseURL = "/"
-title = "Eureka Demo"
+baseurl = "/"
+languageCode = "en-us"
+title = "A Hugo website"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
-# Comment when installing using Hugo Modules
-theme = "hugo-eureka"
-# Uncomment when installing using Hugo Modules
-# theme = "github.com/wangchucheng/hugo-eureka"
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
 
-paginate = 3
-copyright = "&copy; 2020 <a href=\"https://www.wangchucheng.com/\">C. Wang</a> and <a href=\"https://www.ruiqima.com/\">R. Ma</a>"
-enableEmoji = true
-enableGitInfo = false
-summaryLength = 75
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/rstudio/blogdown"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
 
-defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean.
-defaultContentLanguageInSubdir = false
+[params]
+    description = "A website built through Hugo and blogdown."
 
-# Uncomment for google analytics
-# googleAnalytics = "UA-123-45"
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
 
-[markup]
-  # Do not modify markup.highlight
-  [markup.highlight]
-    codeFences = false
-    noClasses = false
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 6
-    ordered = false
-  [markup.goldmark.renderer]
-    unsafe = true
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
-  author = "authors"
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
 
-[build]
-  useResourceCacheWhen = "always"
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
