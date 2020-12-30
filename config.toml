@@ -1,6 +1,6 @@
 baseurl = "https://example.com"
 languageCode = "en"
-title = "Hugo Kiss theme"
+title = "The Schlenk Line"
 theme = "kiss"
 copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 disqusShortname = "shortname"
@@ -40,7 +40,7 @@ page = "" # Twitter Page username. If not set, params.social.twitter will be use
 [params.social]
 twitter = "ribicemir"
 github = "ribice"
-email = "ribice@gmail.com"
+email = "losingsente@protonmail.com"
 linkedin = "ribice"
 facebook = "ribice"
 instagram = ""
@@ -48,7 +48,8 @@ codepen = ""
 rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+platforms = ["email"]
+#platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
 
 [params.matomoAnalytics]
 siteID = 1
