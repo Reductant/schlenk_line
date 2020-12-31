@@ -2,7 +2,7 @@ baseurl = "https://example.com"
 languageCode = "en"
 title = "The Schlenk Line"
 theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
+copyright = "&copy; Adam</a> 2020"
 disqusShortname = "shortname"
 googleAnalytics = ""
 Paginate = 5 # Number of posts per page
@@ -10,8 +10,8 @@ enableRobotsTXT = true
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
-authorName = "Emir Ribic" # Author full name
-authorEmail = "ribice@gmail.com" # Author email
+authorName = "Schlenk" # Author full name
+authorEmail = "losingsente@protonmail.com" # Author email
 
 [params.assets]
 customCSS = ["css/custom.css"]
@@ -21,7 +21,7 @@ adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
-related = true # Includes related articles at the bottom of the article
+related = false # Includes related articles at the bottom of the article
 codeCopy = true # Add copy button above code blocks
 taxonomiesCount = true # Add taxonomies count
 
