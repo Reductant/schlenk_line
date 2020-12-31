@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>books on The Schlenk Line</title>
+    <link>https://example.com/tags/books/</link>
+    <description>Recent content in books on The Schlenk Line</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; Adam&lt;/a&gt; 2020</copyright>
+    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What I read in 2020</title>
+      <link>https://example.com/post/2020-12-31-what-i-read-in-2020/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/2020-12-31-what-i-read-in-2020/</guid>
+      <description>Green Mars &amp;ndash; Kim Stanley Robinson For Whom the Bell Tolls &amp;ndash; Ernest Hemingway The Truthful Art &amp;ndash; Alberto Cairo World War Z &amp;ndash; Max Brooks Leviathan Wakes &amp;ndash; James A Corey Humble Pi &amp;ndash; Matt Parker Making Comics &amp;ndash; Scott McCloud Liberty in the Age of Terror &amp;ndash; A C Grayling Lords of the Desert &amp;ndash; James Barr Massive Change &amp;ndash; Bruce Mau Sick Puppy &amp;ndash; Carl Hiaasen Invisible Women &amp;ndash; Caroline Criado Perez The Windup Girl &amp;ndash; Paul Bacigalupi Failure is Not an Option &amp;ndash; Gene Kranz Cigarette Girl &amp;ndash; Masahiko Matsumoto Telling Tales &amp;ndash; Ann Cleeves Blame!</description>
+    </item>
+    
+  </channel>
+</rss>
