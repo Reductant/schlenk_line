@@ -6,6 +6,8 @@ slug: []
 categories: ["books"]
 tags: ["books", "reviews"]
 ---
+The best and the worst of a year that gave me an unusual amount of reading time.
+
 1. Green Mars -- Kim Stanley Robinson
 1. For Whom the Bell Tolls -- Ernest Hemingway
 1. The Truthful Art -- Alberto Cairo
