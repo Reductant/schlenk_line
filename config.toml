@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://schlenkline.netlify.app"
 languageCode = "en"
 title = "The Schlenk Line"
 theme = "kiss"
