@@ -11,26 +11,13 @@ tags: ["R", "statistics", "programming"]
 
 Last summer I was looking at the BBC's weather forecast for the coming two weeks, and it started to bug me that there were no error bars on these numbers. So I decided to add them for myself!
 
-What I wanted to see was how the predictions got more and more reliable as the day approached. To see this for day *X*, I would need to start thirteen days earlier, on day *X -- 13*. I would record that temperature; then the temperature on day *X -- 12*, *X -- 11* and so on until day *X*. That would give me a table:
+What I wanted to see was how the predictions got more and more reliable as the day approached. To see this for day *X*, I would need to start thirteen days earlier, on day *X -- 13*. I would record that temperature; then the temperature on day *X -- 12*, *X -- 11* and so on until day *X*. That would give me a table with the following columns:
 
-Days in the future | Predicted temperature | Actual temperature on day X | How far off?
--|-|-|-
-13|24|21|3
-12|23|21|2
-11|22|21|1
-10|23|21|2
-9|22|21|1
-8|20|21|-1
-7|21|21|0
-6|21|21|0
-5|22|21|1
-4|19|21|-2
-3|20|21|-1
-2|21|21|0
-1|22|21|1
-0|21|21|0 (by definition)
+1. A predicted temperature
+1. How far ahead the prediction was made
+1. What the actual temperature was on the day itself
 
-That's two weeks of predictions for the temperature on day *X*, which on day *X* itself ended up being 21 °C. The difference between the *predicted* temperature and the *actual* temperature could be graphed against how far in the future the prediction was made.
+The difference between the *predicted* temperature and the *actual* temperature could be graphed against how far in the future the prediction was made.
 
 To get all the data I needed, I would have to check the BBC website each day, scrape all the temperatures, and store them in CSV format for later analysis together with certain information about when the data was collected.
 
